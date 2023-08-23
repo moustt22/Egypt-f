@@ -1,0 +1,37 @@
+.red{
+    height: 350px;
+    width: 500px;
+    background-color: #C8102E;
+    position: relative;
+}
+
+.red > div {
+    height: 175px;
+    width: 500px;
+    background-color:white;
+    position: absolute;
+    top: 87.5px;
+    
+
+}
+
+img{
+    height: 90px;
+}
+
+.red div > div{
+
+    position: absolute;
+    top: 45px;
+    left:200px
+}
+
+.red div > div > div{
+    height: 87.5px;
+    width: 500px;
+    background-color: #000000;
+    position: absolute;
+    top: 130px;
+    left:-200px;
+    
+}
